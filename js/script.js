@@ -16,7 +16,6 @@ const imagem2 = document.getElementById("lampada-02");
 imagem2.addEventListener("mouseover", function () {
   imagem2.src = "img/lampada-on.jpg";
 }); 
-
 imagem2.addEventListener("mouseout", function () {
     imagem2.src = "img/lampada.jpg";
 });
